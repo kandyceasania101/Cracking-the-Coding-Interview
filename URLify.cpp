@@ -25,8 +25,7 @@ void URLify(string &a){
   
     a.replace(i, 1, "%20");
     
-  }
-  
+  } 
 }
 
 
