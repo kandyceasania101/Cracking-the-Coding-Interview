@@ -25,3 +25,11 @@ string compression(string str){
   compressed.append(to_string(count));
   return (compressed.size() < str.size() ? compressed : str);
 }
+
+int main(){
+    string a;
+    getline(cin , a);
+    cout << compression(a) << endl;
+    return 0;   
+}
+
